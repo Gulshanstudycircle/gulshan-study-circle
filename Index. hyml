@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GULSHAN STUDY CIRCLE | E TECH</title>
+  <style>
+    * {
+      margin: 0; padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: #0e4d92;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header img {
+      width: 100px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    nav {
+      background: #083c74;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1584697964234-d3b0c58dba2b') no-repeat center;
+      background-size: cover;
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      background: rgba(0,0,0,0.6);
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 10px;
+    }
+
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .section h2 {
+      color: #0e4d92;
+      margin-bottom: 20px;
+    }
+
+    .section ul li {
+      margin: 10px 0;
+    }
+
+    .contact a {
+      display: inline-block;
+      margin: 10px 10px 0 0;
+      padding: 10px 20px;
+      background: #0e4d92;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .contact a:hover {
+      background: #083c74;
+    }
+
+    footer {
+      background: #0e4d92;
+      color: white;
+      text-align: center;
+      padding: 15px 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Gulshan Study Circle Logo" />
+    <h1>GULSHAN STUDY CIRCLE</h1>
+    <p>E-Tech Learning for Bright Futures</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Courses</a>
+    <a href="#">Notes</a>
+    <a href="#">Videos</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Empower Your Education With Technology</h1>
+  </section>
+
+  <section class="section">
+    <h2>About Us</h2>
+    <p>Gulshan Study Circle is an E-Tech platform dedicated to providing free and quality educational content. Our mission is to make learning accessible for every student through digital innovation, curated notes, and expert video classes.</p>
+  </section>
+
+  <section class="section">
+    <h2>Our Courses</h2>
+    <ul>
+      <li>Class 10 & 12 Board Preparation</li>
+      <li>NCERT Chapter-wise Notes</li>
+      <li>MCQs & Practice Tests</li>
+      <li>Motivational & Career Guidance Videos</li>
+    </ul>
+  </section>
+
+  <section class="section contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:gulshanstudycircle@gmail.com">gulshanstudycircle@gmail.com</a></p>
+    <a href="mailto:gulshanstudycircle@gmail.com">📧 Send Email</a>
+    <a href="https://youtube.com/@gulshanstudycircle?si=HM75r4AyP33cL2Om" target="_blank">▶️ Visit YouTube Channel</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 GULSHAN STUDY CIRCLE | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
